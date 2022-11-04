@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio web</title>
+</head>
+<body>
+    <nav class="nav">
+        <div id="fondo"></div>
+        <div class="nav__container">
+            <label for="" class="nav__label">
+                <img src="APLogo-20-20.png" width="140px">
+            </label>
+            <div class="nav__menu" id="nav__barra">
+                <a href="https://github.com/" target="_blank"><img src="icons8-github-80.png" class="nav__item"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="icons8-facebook-nuevo-80.png" class="nav__item"></a>
+                <a href="#" target="_blank"><img src="icons8-bloquear-80.png" class="nav__item"></a>
+                <button class="buttons">Login</button>
+            </div>
+    </nav>
+</body>
+</html>
