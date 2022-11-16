@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav"></div>
+    <!-- LOGO DE ARG PROGRAMA -->
+        <div class="nav__container">
+            <label for="" class="nav__label">
+                <img src="imagen/APLogo-20-20.png" class="logo__arg">
+            </label>
+
+            <div class="nav__menu">
+                <!-- ICONOS DE LA REDES SOCIALES -->
+                <a href="https://github.com/" target="_blank"><img src="/imagen/icons8-github-80.png" class="nav__item"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="/imagen/icons8-facebook-nuevo-80.png" class="nav__item"></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><img src="/imagen/icons8-twitter-80.png" class="nav__item"></a>
+                <a href="" target="_blank"><img src="/imagen/icons8-bloquear-80.png" class="nav__item"></a>
+                <button class="buttons">Login</button>
+            </div>
+        </div>
+
+    <div class="container-fluid sobre__mi">
+        <!--IMAGEN DONDE ESTARA LA FOTO DE PERFIL-->
+        <img src="/imagen/luna-llena.png" class="foto__perfil">
+        <!-- TEXTO DE INFORMACION "SOBRE MI"-->
+        <span class="texto__sobre__mi">Lorem Ipsum es simplemente un texto ficticio de la industria de la impresión y la composición tipográfica.<br/>
+        Lorem Ipsum es simplemente un texto ficticio de la industria de la impresión y la composición tipográfica.<br>
+        Lorem Ipsum es simplemente un texto ficticio de la industria de la impresión y la composición tipográfica.<br>
+        Lorem Ipsum es simplemente un texto ficticio de la industria de la impresión y la composición tipográfica.<br>
+        Lorem Ipsum es simplemente un texto ficticio de la industria de la impresión y la composición tipográfica.<br>
+        Lorem Ipsum es simplemente un texto ficticio de la industria de la impresión y la composición tipográfica.<br>
+        </span>
+
+    </div>
+    <!-- DIV DEL TEXTO DE EXPERIENCIA Y EDUCACION -->
+    <div class="contenido__experiencia">
+        <h2 class="title__1">Educacion</h2>
+        <h2 class="title__2">Experiencia</h2>
+
+    </div>
+    <div class="text__title">
+         <!--TEXTO DE LA PARTE DE EDUCACION-->
+        <ul class="text__title1">
+            <li>Educacion</li>
+            <li>Educacion</li>
+            <li>Educacion</li>
+        </ul>
+        <!--TEXTO DE LA PARTE DE EXPERIENCIA -->
+        <ul class="text__title2">
+            <li>Experiencia</li>
+            <li>Experiencia</li>
+            <li>Experiencia</li>
+        </ul>
+    </div>
+
+    <div></div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Roboto+Mono:ital,wght@0,500;1,700&display=swap');
+/* COLOR DE FONDO DE LA PAGINA */
+body{
+    --bs-body-bg: #0b0c0ced;
+
+
+}
+/* COLOR DE BARRA DE NAVEGACION */
+.nav{
+    height: 70px;
+    background-color: #2196f3;      
+}
+.nav__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/*iCONOS DE REDES SOCIALES*/
+.nav__item{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    right: 20px;
+    bottom: 75px;
+}
+/*BOTON DE LOGIN*/
+.buttons{
+    position: relative;
+    right: 15px;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    top: -70px;;
+    padding: 1px 12px;
+    background-color: #ffa500;
+    color: black;
+    border-radius: 15px;
+    border: 3px solid #020a13;
+}
+/*LOGO DE ARGENTINA PROGRAMA- BARRA DE NAVEGACION*/
+.logo__arg{
+    position: relative;
+    top: -77px;
+    align-items: center;
+    width: 143px;
+}
+.foto__perfil{
+    width: 300px;
+    position: relative;
+    display:block;
+    left: 110px;
+    top: 200px;
+}
+.texto__sobre__mi{
+    background-color: #30c70e;
+    color: #fafafa;
+    text-align: center;
+    position: relative;
+    left: 500px;
+    bottom: 15px;
+}
+
+.contenido__experiencia{
+    color: #bbf321;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: baseline;
+    margin-top: 250px;
+
+}
+
+.text__title{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: baseline;
+}
+
+.text__title1{
+    color: #2196f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-top: 20px;
+
+}
+
+.text__title2{
+    color: #2196f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-top: 20px;
+}
